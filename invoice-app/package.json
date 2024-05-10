@@ -6,8 +6,17 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@vue/compiler-sfc": "^3.4.27",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
-        "vite": "^5.0"
+        "vite": "^5.0",
+        "vite-plugin-vue-devtools": "^7.1.3",
+        "vue-loader": "^17.4.2",
+        "vue-template-compiler": "^2.7.16"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^5.0.4",
+        "vue": "^3.4.27",
+        "vue-router": "^4.3.2"
     }
 }
